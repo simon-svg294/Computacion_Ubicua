@@ -1,0 +1,32 @@
+// Practica laboratorio 1. 
+
+int PULSADOR = 2; 
+int LED=3; 
+
+void setup(){ 
+
+pinMode(PULSADOR, INPUT); 
+pinMode(LED, OUTPUT); 
+digitalWrite(LED, LOW);
+
+ } 
+
+void loop (){ 
+    // Espera a que se presione el pulsador
+    while(digitalRead(PULSADOR) == HIGH) {
+        delay(20);
+    }
+    
+    delay(20);  // Antirebote
+    
+    digitalWrite(LED, HIGH);   // Enciende LED
+    delay(5000);               // Espera 5 seg
+    digitalWrite(LED, LOW);    // Apaga LED
+    
+    // Espera a que se suelte el pulsador
+    while(digitalRead(PULSADOR) == LOW) {
+        delay(20);
+    }
+    
+    delay(20);  // Antirebote al soltar
+}
