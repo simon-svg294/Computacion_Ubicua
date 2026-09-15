@@ -1,3 +1,3 @@
-- Simulador Tinkercad: https://www.tinkercad.com/things/0bNpITk7C15-laboratorio-1 
+- Simulador Tinkercad: https://www.tinkercad.com/things/0bNpITk7C15-laboratorio-1
 - Simulador Velxio: https://velxio.dev/project/1a103d7d-4644-4ab0-985d-d5bfe583c29e 
 - Simulador Wokwi: https://wokwi.com/projects/472634612560930817 
