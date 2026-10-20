@@ -3,6 +3,6 @@
 
 | Simulador | Enlace |
 |-----------|--------|
-| 🟢 **Tinkercad** | [Ver circuito]() |
+| 🟢 **Tinkercad** | [Ver circuito](https://www.tinkercad.com/things/gEJFmDOFAmG-bodacious-vihelmo-jarv) |
 | 🔵 **Velxio** | [Ver circuito]() |
 | 🔵 **wokwi** | [Ver circuito]() |
