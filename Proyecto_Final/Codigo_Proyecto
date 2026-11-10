@@ -1,1 +1,19 @@
+const int sensores[3] = {A0, A1, A2};
+const int reles[3] = {7, 6, 5};
+
+const int VALOR_SECO = 1023;
+const int VALOR_HUMEDO = 415;
+const int ENCENDER = 35;
+const int APAGAR = 55;
+
+// Lectura y porcentaje de humedad
+valores[i] = analogRead(sensores[i]);
+humedad[i] = map(valores[i], 1023, 415, 0, 100);
+humedad[i] = constrain(humedad[i], 0, 100);
+
+// Histéresis: enciende bajo 35%, apaga desde 55%
+if (humedad[i] < ENCENDER) bombaActiva[i] = true;
+else if (humedad[i] >= APAGAR) bombaActiva[i] = false;
+
+// Los módulos de relé trabajan activos en LOW
 
